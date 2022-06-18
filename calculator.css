@@ -1,0 +1,78 @@
+.father{
+  text-align:center;
+  background-image:url('https://cdn.pixabay.com/photo/2017/12/24/23/58/geometric-3037790_960_720.png' ) ;
+  background-position: left;
+  border: 2px solid gray;
+  margin: 8%  42% 10% 42%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000000;
+  
+}
+.s1{ 
+border:2px solid black;
+      margin: 5% 10% 5% 10%;
+      padding: 10px 13px 10px 13px;
+  border-radius: 10px;
+  line-height: 1.8;
+  background-color:#17272B;
+  color:aquamarine;
+  font-size: 30px;
+  box-sizing: calc();
+}
+
+.s1:hover{
+color: blueviolet;
+box-shadow: 2px 2px 4px #070707;
+}
+.s{ 
+border:2px solid black;
+      margin: 5% 10% 5% 10%;
+      padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  line-height: 1.8;
+  background-color:#17272B;
+  color:aquamarine;
+  font-size: 30px;
+}
+
+.s:hover{
+color: blueviolet;
+box-shadow: 2px 2px 4px #070707;
+}
+
+.empty{ 
+display: inline-flex;
+}
+.s3{
+height: 20px;
+max-width: 210px;
+text-align: end;
+border-bottom: none;
+margin-top: 20px;
+margin-bottom: -2px;
+font-size:18px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.s2{
+height: 40px;
+max-width: 210px;
+text-align: end;
+margin-top: -5px;
+border-top: none;
+font-size: 30px; 
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.s2:focus{
+outline: none;
+}
+.s3:focus{
+outline: none;
+}
+.history{
+background-color: #000000;
+color: rgb(247, 246, 246);
+border-bottom:1px solid  blueviolet ;
+}
