@@ -39,13 +39,16 @@ historyData.innerHTML=history;
 
 function clearHistory()
 {
-
+const cl=confirm("Bhai sach me History Delete kr na hai ?")
+if(cl){
 historyData.innerHTML="";
 eq=[];
 answers=[];
+}
 
 }
 function del()
 {
+   
 InputData.value=InputData.value.slice(0,-1);
 }
