@@ -45,7 +45,7 @@ display: inline-flex;
 }
 .s3{
 height: 20px;
-width: 240px;
+width: 230px;
 text-align: end;
 border-bottom: none;
 margin-top: 20px;
@@ -57,7 +57,7 @@ border-top-right-radius: 10px;
 }
 .s2{
 height: 40px;
-width: 240px;
+width: 230px;
 text-align: end;
 margin-top: -5px;
 border-top: none;
