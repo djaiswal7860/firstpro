@@ -49,6 +49,17 @@ answers=[];
 }
 function del()
 {
-   
+   if(InputData.value!="")
+   {
+      if(InputData.value.length>1)
 InputData.value=InputData.value.slice(0,-1);
+      else{
+         InputData.value=InputData.value.slice(0,-1);
+         InputData.value="0";
+      }
+   }
+   else{
+      InputData.value="0";
+   }
 }
+
